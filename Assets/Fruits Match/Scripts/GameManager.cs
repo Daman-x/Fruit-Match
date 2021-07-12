@@ -17,6 +17,7 @@ public class GameManager : MonoBehaviour
 
     public GameObject win, lose, pause;
     public Text hint;
+    public bool chance = false;
 
     public static bool touched = false;
 
@@ -86,10 +87,21 @@ public class GameManager : MonoBehaviour
 
                     if(touched == false)
                     {
+                        if(chance)
+                        {
+                            lose.SetActive(true);
+                            block.SetActive(false);
+                            yield return new WaitForSeconds(3f);
+                            SceneManager.LoadScene("MainScene");
+                        }
                         Tracker.tries--;
-                        hint.text = "Oops! time is over";
+                        hint.text = "Oops! time is over " +
+                            "Try to put Red Apples Together in next 20 sec";
                         yield return new WaitForSeconds(3f);
-                        SceneManager.LoadScene("MainScene");
+                        timer = 60f;
+                        clock.fillAmount = 1f;
+                        StartCoroutine(Timer());
+                        chance = true;
                         break;
                     }
                     else
@@ -97,6 +109,9 @@ public class GameManager : MonoBehaviour
                         Tracker.tries--;
                         hint.text = "Sorry! you lost the game";
                         yield return new WaitForSeconds(3f);
+                        lose.SetActive(true);
+                        block.SetActive(false);
+                        yield return new WaitForSeconds(2f);
                         SceneManager.LoadScene("MainScene");
                         break;
                     }
