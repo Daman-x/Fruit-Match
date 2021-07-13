@@ -8,6 +8,7 @@ public class GameManager : MonoBehaviour
 {
     public static bool correct = false;
 
+    public Animation anim;
     public AudioSource tick;
     private float timer = 60f;
 
@@ -15,7 +16,7 @@ public class GameManager : MonoBehaviour
 
     public GameObject block;
 
-    public GameObject win, lose, pause;
+    public GameObject win, lose, pause , notsubmit , submitbtn;
     public Text hint;
     public bool chance = false;
 
@@ -36,6 +37,26 @@ public class GameManager : MonoBehaviour
             block.SetActive(false);
             StartCoroutine(Win());
         }
+        else
+        {
+            hint.text = "Make Sure your red apples together vertically or horizontally";
+            StartCoroutine(notsubmt());
+        }
+    }
+
+
+    private IEnumerator notsubmt()
+    {
+        submitbtn.SetActive(false);
+        notsubmit.SetActive(true);
+        yield return new WaitForSeconds(1f);
+        submitbtn.SetActive(true);
+        notsubmit.SetActive(false);
+    }
+
+    public void hiddenSubmit()
+    {
+        SceneManager.LoadScene("StartScene");
     }
 
     public void Pause()
@@ -76,11 +97,10 @@ public class GameManager : MonoBehaviour
 
                 if(Tracker.tries == 0)
                 {
-                    lose.SetActive(true);
+                    hint.text = "See How To Connect 2 apples";
                     block.SetActive(false);
-                    yield return new WaitForSeconds(3f);
-                    Destroy(this.gameObject);
-                    SceneManager.LoadScene("StartScene");
+                    anim.Play("HowToSolve");
+                    yield return new WaitForSeconds(5f);
                 }
                 else
                 {

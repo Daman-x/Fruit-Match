@@ -15,6 +15,7 @@ public class StartSceneManager : MonoBehaviour
     private void Start()
     {
         StartCoroutine(Hint());
+        Tracker.tries = 3;
     }
 
     public void StartToMain()
