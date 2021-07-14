@@ -26,7 +26,7 @@ public class StartSceneManager : MonoBehaviour
     IEnumerator loadscene()
     {
         yield return new WaitForSeconds(2f);
-        SceneManager.LoadScene("MainScene");
+        SceneManager.LoadScene("TutorialScene");
     }
     
     IEnumerator Hint()

@@ -62,6 +62,8 @@
     <Compile Include="Assets\Fruits Match\Scripts\Tracker.cs" />
     <Compile Include="Assets\Fruits Match\Scripts\GameManager.cs" />
     <Compile Include="Assets\Fruits Match\Scripts\Shuffle.cs" />
+    <Compile Include="Assets\Fruits Match\Scripts\TutorialManager.cs" />
+    <Compile Include="Assets\Fruits Match\Scripts\SkipAnim.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

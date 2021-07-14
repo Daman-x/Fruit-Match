@@ -1,0 +1,141 @@
+Using pre-set license
+Built from '2020.3/release' branch; Version is '2020.3.7f1 (dd97f2c94397) revision 14522354'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Home Single Language; OS build 19043.1083; Version 2009; 64bit' Language: 'en' Physical Memory: 8112 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+D:\Unity\Platforms\2020.3.7f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+E:/Fruit-Match-main
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+62963
+Successfully changed project path to: E:/Fruit-Match-main
+E:/Fruit-Match-main
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 25.07 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.7f1 (dd97f2c94397)
+[Subsystems] Discovering subsystems at path D:/Unity/Platforms/2020.3.7f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path E:/Fruit-Match-main/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1050 Ti (ID=0x1c8c)
+    Vendor:   
+    VRAM:     4021 MB
+    Driver:   30.0.14.7111
+Initialize mono
+Mono path[0] = 'D:/Unity/Platforms/2020.3.7f1/Editor/Data/Managed'
+Mono path[1] = 'D:/Unity/Platforms/2020.3.7f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'D:/Unity/Platforms/2020.3.7f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56544
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/Unity/Platforms/2020.3.7f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001353 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 25.40 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.699 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.000615 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.20 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.954 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 0.21 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1124 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 58.4 MB.
+System memory in use after: 58.5 MB.
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 1567.
+Total: 2.217400 ms (FindLiveObjects: 0.302200 ms CreateObjectMapping: 0.133200 ms MarkObjects: 1.714100 ms  DeleteObjects: 0.066600 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Fruits Match/Animations/Walkthough/Walkin5.anim
+  artifactKey: Guid(f8a8e130419ea5041bcc189d73f511d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fruits Match/Animations/Walkthough/Walkin5.anim using Guid(f8a8e130419ea5041bcc189d73f511d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd91418e65193a2ed3ff7bf70205acdac') in 0.061856 seconds
+  Import took 0.064684 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.101489 seconds.
+  path: Assets/Fruits Match/Animations/Walkthough/Walkin4.anim
+  artifactKey: Guid(48047b751f1e4614589730e36f477e83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fruits Match/Animations/Walkthough/Walkin4.anim using Guid(48047b751f1e4614589730e36f477e83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8c6be33ec6024ddc7a1f36e229ddc19') in 0.007796 seconds
+  Import took 0.009943 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.087168 seconds.
+  path: Assets/Fruits Match/Scripts/TutorialManager.cs
+  artifactKey: Guid(816ad64b4d15f5c4f8cd5c0f5efb1057) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fruits Match/Scripts/TutorialManager.cs using Guid(816ad64b4d15f5c4f8cd5c0f5efb1057) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c22d62d479a7a47752286c57d9924e7') in 0.005292 seconds
+  Import took 0.008783 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004155 seconds.
+  path: Assets/Fruits Match/Animations/Walkthough/Walkin3.anim
+  artifactKey: Guid(2b71ee1c50fdbfc48909ec8f121c59ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fruits Match/Animations/Walkthough/Walkin3.anim using Guid(2b71ee1c50fdbfc48909ec8f121c59ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3771ec8d79a37a95cf31feaf592934f') in 0.009059 seconds
+  Import took 0.011317 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.099986 seconds.
+  path: Assets/Fruits Match/Animations/Walkthough/Walkthrough.controller
+  artifactKey: Guid(ff5e532725f4a5b42b4abade633d1bf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fruits Match/Animations/Walkthough/Walkthrough.controller using Guid(ff5e532725f4a5b42b4abade633d1bf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fdf84ee84a3eb6e4956da56ff00783a9') in 0.010647 seconds
+  Import took 0.013166 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.124461 seconds.
+  path: Assets/Fruits Match/Animations/Walkthough/Walkin2.anim
+  artifactKey: Guid(a8e22eea8b38bfa4894b7b0ec633e099) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fruits Match/Animations/Walkthough/Walkin2.anim using Guid(a8e22eea8b38bfa4894b7b0ec633e099) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87c280767fdba3788f71be240b6a94c8') in 0.009098 seconds
+  Import took 0.011733 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.051683 seconds.
+  path: Assets/Fruits Match/Animations/Walkthough/Walkin1.anim
+  artifactKey: Guid(01bd11123d6830549992383fef6e7e06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fruits Match/Animations/Walkthough/Walkin1.anim using Guid(01bd11123d6830549992383fef6e7e06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a408cadb011f652f83de30f9f09182e') in 0.008969 seconds
+  Import took 0.011527 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.186286 seconds.
+  path: Assets/Fruits Match/Scenes/TutorialScene.unity
+  artifactKey: Guid(c767e7d7107250446ac124cd3a7f832f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fruits Match/Scenes/TutorialScene.unity using Guid(c767e7d7107250446ac124cd3a7f832f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4d719004b1452af98a6877249be9137') in 0.007537 seconds
+  Import took 0.010273 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.045875 seconds.
+  path: Assets/Fruits Match/Scripts/StartSceneManager.cs
+  artifactKey: Guid(6318046cd67549448a1cc224adf4b282) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fruits Match/Scripts/StartSceneManager.cs using Guid(6318046cd67549448a1cc224adf4b282) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85b87bb3bc04abb34246f001efb094d3') in 0.008698 seconds
+  Import took 0.011638 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
